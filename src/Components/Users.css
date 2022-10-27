@@ -1,0 +1,37 @@
+
+.button {
+    background-color: rgba(3, 3, 63, 0.74);
+    padding: 7px 16px;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 5px;
+}
+.spinner {
+    height: 50px;
+    width: 50px;
+    border: 6px solid;
+    border-color: rgb(5, 9, 255) transparent white transparent;
+    border-radius: 50%;
+    animation: loads 1.3s linear infinite;
+    margin-top: 80px;
+    margin-left: 50px;
+
+}
+
+@keyframes loads {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .user {
+        overflow-y: auto;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+}
